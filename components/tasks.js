@@ -44,8 +44,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         marginBottom: 20,
-
-
     },
 
     serverInfo:{
@@ -66,9 +64,6 @@ const styles = StyleSheet.create({
     clientInfo:{
         marginBottom: 10,
         flexDirection: 'column',
-        
-        
-
     },
     itemLeft: {
         flexDirection: 'row',

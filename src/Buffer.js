@@ -7,8 +7,6 @@ export default function Buffer() {
 
   const handleAddTask = (record) => {
     setTaskItems([...taskItems, record])
-
-    
   }
 
   const completeTask = (index) => {
@@ -23,8 +21,6 @@ export default function Buffer() {
       .then(users => func2(users));
   
     console.log('Constructor Called.');
-
-    //setState("Hola2");
   };
 
   const func2 = (response) => {
@@ -92,9 +88,6 @@ const styles = StyleSheet.create({
   },
     tasksWraper: {
      
-      
-      
-      
     },
     sectionTittle:{
       color: '#fff',
