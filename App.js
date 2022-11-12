@@ -43,9 +43,9 @@ function App() {
             )
           }
         })}
-        activeColor='#ffffff'
-        inactiveColor='#125488'
-        barStyle={{backgroundColor: '#4D9CD0'}}
+        activeColor='#f8f8f8'
+        inactiveColor='#cfd0cf'
+        barStyle={{backgroundColor: '#8e918f'}}
         shifting={true}
         >
         <Tab.Screen name="Urgents" component={Urgents} />
