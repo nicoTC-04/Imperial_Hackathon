@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
 
     item:{
         paddingHorizontal: 20,
-        backgroundColor: '#fff',
+        backgroundColor: '#4874a8',
         padding: 15,
         borderRadius: 10,
         flexDirection: 'row',
@@ -55,9 +55,11 @@ const styles = StyleSheet.create({
 
     },
     taskText:{
+        color: '#fff',
         fontWeight: 'bold',
     },
     clientText:{
+        color: '#fff',
         fontStyle:'italic',
     },
 
@@ -77,7 +79,7 @@ const styles = StyleSheet.create({
     square: {
         width: 24,
         height: 24,
-        backgroundColor: '#55BCF6',
+        backgroundColor: '#4874a8',
         opacity: 0.4,
         borderRadius:5,
         marginRight: 15,
@@ -88,7 +90,7 @@ const styles = StyleSheet.create({
     circular: {
         width: 12,
         height: 12,
-        borderColor: '#55BCF6',
+        borderColor: '#4874a8',
         borderWidth: 2,
         borderRadius: 5,
         
