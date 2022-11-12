@@ -81,13 +81,13 @@ export default function Buffer() {
 
 const styles = StyleSheet.create({
   topNoch:{
-    backgroundColor: '#55BCF6',
+    backgroundColor: '#4c9ccf',
     height: 140,
     borderRadius:20,
   },
   container: {
     flex: 1,
-    backgroundColor: '#E8EAED',
+    backgroundColor: '#DADAE6',
 
   },
     tasksWraper: {
@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
       
     },
     sectionTittle:{
+      color: '#fff',
       paddingLeft: 20,
       paddingTop: 80,
       fontSize: 24,
@@ -130,7 +131,7 @@ const styles = StyleSheet.create({
     addWrapper: {
       width: 60,
       height: 60,
-      backgroundColor: '#55BCF6',
+      backgroundColor: '#2100C4',
       opacity: 0.6,
       borderRadius: 60,
       justifyContent: 'center',
