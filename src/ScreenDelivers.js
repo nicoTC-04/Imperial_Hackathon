@@ -1,15 +1,20 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import { Keyboard, KeyboardAvoidingView, Platform, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import data from "../data/completedData";
+import RepositoryList from './RepositoryList';
 
-export default function ScreenC({navigation}) {
+export default function ScreenC({ navigation }) {
     return (
-        <View style={styles.body}>
-            <Text style={styles.text}>
-                Screen C
-            </Text>
+        
+        <View style={styles.container}>
+            <View style={styles.topNoch}>
+                <Text style={styles.sectionTittle}> Delivered</Text>
+            </View>
+            <RepositoryList {...data} />
         </View>
     )
 }
+
 const styles = StyleSheet.create({
     body: {
         flex: 1,
@@ -17,9 +22,27 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     text: {
-        fontSize: 40,
+        fontSize: 20,
         fontWeight: 'bold',
-        margin: 10,
+        margin: 50,
     },
+    topNoch: {
+        backgroundColor: '#7ec384',
+        height: 140,
+        borderRadius: 20,
+    },
+    sectionTittle: {
+
+        color: '#fff',
+        paddingLeft: 20,
+        paddingTop: 80,
+        fontSize: 24,
+        fontWeight: 'bold',
+
+    },
+    container: {
+        flex: 1,
+        backgroundColor: '#3f7856',
+      },
 
 });
