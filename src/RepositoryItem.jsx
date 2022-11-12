@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     },
     item: {
         paddingHorizontal: 20,
-        backgroundColor: '#4874a8',
+        backgroundColor: '#bababa',
         padding: 15,
         borderRadius: 10,
         flexDirection: 'row',
@@ -96,4 +96,3 @@ const styles = StyleSheet.create({
 })
 
 export default RepositoryItem
-

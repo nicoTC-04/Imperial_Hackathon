@@ -5,7 +5,7 @@ import data from "../data/urgentData";
 
 export default function ScreenB({ navigation }) {
     return (
-        <View >
+        <View style={styles.container}>
             <View style={styles.topNoch}>
                 <Text style={styles.sectionTittle}> Urgent Deliveries</Text>
             </View>
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         margin: 50,
     },
     topNoch: {
-        backgroundColor: '#4c9ccf',
+        backgroundColor: '#D63B2F',
         height: 140,
         borderRadius: 20,
     },
@@ -40,9 +40,7 @@ const styles = StyleSheet.create({
     },
     container: {
         flex: 1,
-        backgroundColor: '#DADAE6',
+        backgroundColor: '#992A22',
       },
 
 });
-
-

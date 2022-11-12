@@ -7,6 +7,8 @@ export default function Buffer() {
 
   const handleAddTask = (record) => {
     setTaskItems([...taskItems, record])
+
+    
   }
 
   const completeTask = (index) => {
@@ -21,6 +23,8 @@ export default function Buffer() {
       .then(users => func2(users));
   
     console.log('Constructor Called.');
+
+    //setState("Hola2");
   };
 
   const func2 = (response) => {
@@ -34,7 +38,7 @@ export default function Buffer() {
     
       <View style={styles.tasksWraper}>
         <View style={styles.topNoch}>
-          <Text style ={styles.sectionTittle}> Today's Tasks</Text>
+          <Text style ={styles.sectionTittle}> Today's Deliveries</Text>
         </View>
       <View style = {styles.items}>
       {/*Tasks*/}
@@ -77,17 +81,20 @@ export default function Buffer() {
 
 const styles = StyleSheet.create({
   topNoch:{
-    backgroundColor: '#4c9ccf',
+    backgroundColor: '#0078d4',
     height: 140,
     borderRadius:20,
   },
   container: {
     flex: 1,
-    backgroundColor: '#DADAE6',
+    backgroundColor: '#40587c',
 
   },
     tasksWraper: {
      
+      
+      
+      
     },
     sectionTittle:{
       color: '#fff',
