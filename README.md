@@ -3,7 +3,7 @@
  
  Developed by 
  
- Carlos Martinez 
- Oscar Areola
- Nicolas Treviño
- German Salas
+ Carlos Martinez   
+ Oscar Areola  
+ Nicolas Treviño  
+ German Salas  
