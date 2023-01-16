@@ -3,9 +3,9 @@
  
  nov_11-12
  
- Developed by
+ Developed by:   
  
  Carlos Martinez   
- Nicolas Treviño
+ Nicolas Treviño   
  Oscar Areola    
  German Salas  
